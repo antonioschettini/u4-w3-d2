@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab501308-d491-4149-8da2-099f5532ff9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../U1/BW1-TEAM5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-TEAM 5-Buildweek" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W1-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W1-D5-WPROJECT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W2-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W2-D2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W2-D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W2-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W2-D5-WPROJECT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W3-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W3-D2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W3-D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W3-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1/U1-W3-D5-WProject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/BW2-TEAM-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/BW2-TEAM4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W1-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W1-D2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W1-D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W1-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W1-D5WProject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W2-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W2-D2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W2-D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W2-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W2-D5-WProject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W3-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W3-D2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W3-D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W3-D4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2/U2-W3-D5W-PROJECT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/U3-W1-D1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w1-d2-3-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w1-d5wproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w2-d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w2-d5-wproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w3-d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w3-d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w3-d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U3/u3-w3-d5wproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/src/main/java/antonioschettini/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/src/main/java/antonioschettini/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/src/main/java/antonioschettini/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/src/main/java/antonioschettini/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d4/src/test/java/antonioschettini/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/src/main/java/antonioschettini/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../u4-w2-d5/src/test/java/antonioschettini/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/antonioschettini/ApplicationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.0778121557427755E-13" />
+      <entry key="MS500" value="0.0029075102640109137" />
+      <entry key="S2" value="0.2325871218872168" />
+      <entry key="S5" value="0.6200319168860694" />
+      <entry key="S10" value="1.252282205296022" />
+      <entry key="S30" value="4.747610200502889" />
+      <entry key="S60" value="9.18054172056315" />
+      <entry key="M2" value="15.089510283092011" />
+      <entry key="M5" value="25.516858321279244" />
+      <entry key="M10" value="33.77370756514691" />
+      <entry key="M15" value="37.79651381196887" />
+      <entry key="M30" value="42.92448260357392" />
+      <entry key="H1" value="47.25757364204044" />
+      <entry key="H2" value="52.27769540345618" />
+      <entry key="H4" value="57.05591048792322" />
+      <entry key="D1" value="63.368266432095076" />
+      <entry key="W1" value="64.75785039022375" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.000000005053745" />
+      <entry key="MS500" value="1.0221573241246864" />
+      <entry key="S2" value="1.529445589307759" />
+      <entry key="S5" value="2.399356542945495" />
+      <entry key="S10" value="3.5270184154729725" />
+      <entry key="S30" value="6.985571393829387" />
+      <entry key="S60" value="10.603346347013487" />
+      <entry key="M2" value="16.154816802984243" />
+      <entry key="M5" value="28.176154666715867" />
+      <entry key="M10" value="37.91183654962094" />
+      <entry key="M15" value="42.5436945852951" />
+      <entry key="M30" value="48.21360259036758" />
+      <entry key="H1" value="51.93732494386179" />
+      <entry key="H2" value="54.78554753595963" />
+      <entry key="H4" value="56.919556805154286" />
+      <entry key="D1" value="59.39624766229633" />
+      <entry key="W1" value="59.91111928827131" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.007651721075693945" />
+      <entry key="MS500" value="0.3831834454272741" />
+      <entry key="S2" value="1.3486967232908629" />
+      <entry key="S5" value="2.5795397309773884" />
+      <entry key="S10" value="4.263030926255009" />
+      <entry key="S30" value="11.277357575133616" />
+      <entry key="S60" value="19.45002601918684" />
+      <entry key="M2" value="31.009789147156212" />
+      <entry key="M5" value="53.542932871221296" />
+      <entry key="M10" value="71.58704462436727" />
+      <entry key="M15" value="80.26694981364679" />
+      <entry key="M30" value="91.09665491359038" />
+      <entry key="H1" value="99.17220036735343" />
+      <entry key="H2" value="107.05079753821286" />
+      <entry key="H4" value="113.96873995389437" />
+      <entry key="D1" value="122.76328419227829" />
+      <entry key="W1" value="124.66879059818417" />
+    </decayedShown>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FD8RtKOtUhTLIV3c3zIDIr6GQW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab501308-d491-4149-8da2-099f5532ff9c" name="Changes" comment="" />
+      <created>1780326813778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780326813778</updated>
+      <workItem from="1781598285027" duration="7145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
