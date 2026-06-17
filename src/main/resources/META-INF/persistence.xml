@@ -4,6 +4,9 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
     <persistence-unit name="u4-w3-d2-pu">
         <class>antonioschettini.entities.Evento</class>
+        <class>antonioschettini.entities.Location</class>
+        <class>antonioschettini.entities.Persona</class>
+        <class>antonioschettini.entities.Partecipazione</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/u4-w3-d2"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>

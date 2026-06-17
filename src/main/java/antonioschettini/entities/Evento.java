@@ -31,17 +31,23 @@ public class Evento {
     @Column(name = "numero_max_partecipanti", nullable = false)
     private int numeroMassimoPartecipanti;
 
+    //Aggiungo il manutoOne molti eventi possono svolgersi nella stessa location
+    @ManyToOne
+    @JoinColumn(name = "location_id", nullable = false)
+    private Location location;
+
     //Costruttori
     public Evento() {
     } // Il costruttore vuoto obbligatorio entities; per permettere ad Hibernate di funzionare
 
     //Costrutture che utilizzero per instanziare l'oggetto
-    public Evento(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti) {
+    public Evento(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti, Location location) {
         this.titolo = titolo;
         this.dataEvento = dataEvento;
         this.descrizione = descrizione;
         this.tipoEvento = tipoEvento;
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
+        this.location = location;
     }
 
     //Implemento getter setter e override del toostring
@@ -86,6 +92,14 @@ public class Evento {
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
     }
 
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
     @Override
     public String toString() {
         return "Evento{" +
@@ -95,6 +109,7 @@ public class Evento {
                 ", descrizione='" + descrizione + '\'' +
                 ", tipoEvento=" + tipoEvento +
                 ", numeroMassimoPartecipanti=" + numeroMassimoPartecipanti +
+                ", location=" + (location != null ? location.getNome() : "Nessuna") + //ternario per la location se c'è prendo il nome se non c'è mostro nessuna
                 '}';
     }
 }
