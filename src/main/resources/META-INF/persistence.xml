@@ -7,6 +7,9 @@
         <class>antonioschettini.entities.Location</class>
         <class>antonioschettini.entities.Persona</class>
         <class>antonioschettini.entities.Partecipazione</class>
+        <class>antonioschettini.entities.PartitaDiCalcio</class>
+        <class>antonioschettini.entities.GaraDiAtletica</class>
+        <class>antonioschettini.entities.Concerto</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/u4-w3-d2"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>

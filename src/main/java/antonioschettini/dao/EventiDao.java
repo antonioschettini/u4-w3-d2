@@ -1,9 +1,13 @@
 package antonioschettini.dao;
 
-import antonioschettini.entities.Evento;
+import antonioschettini.entities.*;
+import antonioschettini.enums.GenereConcerto;
 import antonioschettini.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.TypedQuery;
+
+import java.util.List;
 
 public class EventiDao {
     // il dao è data access object, in questa istanza andrò ad inserire i metodi per il collegamento al db
@@ -74,5 +78,55 @@ public class EventiDao {
             System.out.println("Errore durante la cancellazione: " + e.getMessage());
         }
 
+    }
+
+    // Aggiungo i nuovi metodi
+    public List<Concerto> getConcertiInStreaming(boolean inStreaming) {
+        TypedQuery<Concerto> query = this.entityManager.createQuery(
+                "SELECT c FROM Concerto c WHERE c.inStreaming= :parametroSteaming", Concerto.class
+        );
+        query.setParameter("parametroSteaming", inStreaming);
+        return query.getResultList();
+    }
+
+    public List<Concerto> getConcertiPerGenere(GenereConcerto genere) {
+        TypedQuery<Concerto> query = this.entityManager.createQuery(
+                "SELECT c FROM Concerto c WHERE c.genere=:parametroGenere", Concerto.class
+        );
+        query.setParameter("parametroGenere", genere);
+        return query.getResultList();
+    }
+
+    //Metodi aggiunti task nuova
+    public List<PartitaDiCalcio> getPartiteVinteInCasa() {
+        TypedQuery<PartitaDiCalcio> query = this.entityManager.createNamedQuery("PartitaDiCalcio.vinteInCasa", PartitaDiCalcio.class);
+        return query.getResultList();
+    }
+
+    public List<PartitaDiCalcio> getPartiteVinteInTrasferta() {
+        TypedQuery<PartitaDiCalcio> query = this.entityManager.createNamedQuery("PartitaDiCalcio.vinteInTrasferta", PartitaDiCalcio.class);
+        return query.getResultList();
+    }
+
+    public List<PartitaDiCalcio> getPartitePareggiate() {
+        TypedQuery<PartitaDiCalcio> query = this.entityManager.createNamedQuery("PartitaDiCalcio.pareggiate", PartitaDiCalcio.class);
+        return query.getResultList();
+    }
+
+    public List<GaraDiAtletica> getGareVinteDaAtleta(Persona atleta) {
+        TypedQuery<GaraDiAtletica> query = this.entityManager.createNamedQuery("GaraDiAtletica.perVincitore", GaraDiAtletica.class);
+        query.setParameter("parametroVincitore", atleta);
+        return query.getResultList();
+    }
+
+    public List<GaraDiAtletica> getGareACuiPartecipaAlteta(Persona atleta) {
+        TypedQuery<GaraDiAtletica> query = this.entityManager.createNamedQuery("GaraDiAtletica.perPartecipante", GaraDiAtletica.class);
+        query.setParameter("parametroAtleta", atleta);
+        return query.getResultList();
+    }
+
+    public List<Evento> getEventiSoldOut() {
+        TypedQuery<Evento> query = this.entityManager.createNamedQuery("Evento.soldOut", Evento.class);
+        return query.getResultList();
     }
 }

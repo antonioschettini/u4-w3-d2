@@ -1,9 +1,13 @@
 package antonioschettini.dao;
 
+import antonioschettini.entities.Evento;
 import antonioschettini.entities.Partecipazione;
 import antonioschettini.exceptions.NotFoundPartecipazione;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.TypedQuery;
+
+import java.util.List;
 
 public class PartecipazioneDao {
     private final EntityManager entityManager;
@@ -31,6 +35,12 @@ public class PartecipazioneDao {
             throw new NotFoundPartecipazione("La partecipazione con id:" + id + " non è stata trovata");
         }
         return found;
+    }
+
+    public List<Partecipazione> getPartecipazioniPerEvento(Evento evento) {
+        TypedQuery<Partecipazione> query = this.entityManager.createNamedQuery("Partecipazione.perEvento", Partecipazione.class);
+        query.setParameter("parametroEvento", evento);
+        return query.getResultList();
     }
 }
 

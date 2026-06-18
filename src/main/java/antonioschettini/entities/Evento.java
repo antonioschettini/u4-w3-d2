@@ -4,11 +4,20 @@ import antonioschettini.enums.TipoEvento;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 // instanzio l'entity in modo tale che all'avvio del programma hibernate veda questa istanza e ne crei la tabella
 @Table(name = "eventi") // nome della tabella
-public class Evento {
+// Aggiungo l'inheritance
+@Inheritance(strategy = InheritanceType.JOINED) // effettuo una singletable
+//Personalizzo il nome della colonna che ospiterà partita concerto o gara per il tipo
+//@DiscriminatorColumn(name = "tipo_struttura_evento", discriminatorType = DiscriminatorType.STRING)
+@NamedQuery(
+        name = "Evento.soldOut",
+        query = "SELECT e FROM Evento e WHERE SIZE(e.partecipazioni) >= e.numeroMassimoPartecipanti"
+)
+public abstract class Evento {
     //Attributi
     @Id // obbligatorio per dichiarare la chiave primaria
     @GeneratedValue(strategy = GenerationType.IDENTITY) // per generare automanticamente l'id
@@ -27,6 +36,9 @@ public class Evento {
     @Column(name = "tipo_evento", nullable = false)
     @Enumerated(EnumType.STRING)  // per settare l'enums in postgre ed assegnarlo a valore stringa
     private TipoEvento tipoEvento;
+
+    @OneToMany(mappedBy = "evento", cascade = CascadeType.REMOVE)
+    private List<Partecipazione> partecipazioni;
 
     @Column(name = "numero_max_partecipanti", nullable = false)
     private int numeroMassimoPartecipanti;
@@ -51,6 +63,10 @@ public class Evento {
     }
 
     //Implemento getter setter e override del toostring
+
+    public long getId() {
+        return id;
+    }
 
     public String getTitolo() {
         return titolo;
@@ -90,6 +106,14 @@ public class Evento {
 
     public void setNumeroMassimoPartecipanti(int numeroMassimoPartecipanti) {
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
+    }
+
+    public List<Partecipazione> getPartecipazioni() {
+        return partecipazioni;
+    }
+
+    public void setPartecipazioni(List<Partecipazione> partecipazioni) {
+        this.partecipazioni = partecipazioni;
     }
 
     public Location getLocation() {

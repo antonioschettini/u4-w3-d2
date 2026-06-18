@@ -5,6 +5,10 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "partecipazione")
+@NamedQuery(
+        name = "Partecipazione.perEvento",
+        query = "SELECT p FROM Partecipazione p WHERE p.evento=:parametroEvento"
+)
 public class Partecipazione {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

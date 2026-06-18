@@ -24,11 +24,12 @@ public class PersonaDao {
         }
     }
 
-    public Persona getByID(long id) {
+    public Persona getById(long id) {
         Persona found = this.entityManager.find(Persona.class, id);
         if (found == null) {
             throw new NotFoundPersona("La persona con id: " + id + "non è stata trovata");
         }
         return found;
     }
+
 }
