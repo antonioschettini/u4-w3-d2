@@ -65,30 +65,45 @@ public class Application {
 
         List<Concerto> inStreaming = eventiDao.getConcertiInStreaming(true);
         System.out.println("Concerti in streaming: " + inStreaming.size());
+        inStreaming.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<Concerto> concertiRock = eventiDao.getConcertiPerGenere(GenereConcerto.ROCK);
         System.out.println("Concerti Pop/Rock trovati: " + concertiRock.size());
+        concertiRock.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<PartitaDiCalcio> vinteInCasa = eventiDao.getPartiteVinteInCasa();
         System.out.println("Partite vinte dalla squadra in casa: " + vinteInCasa.size());
+        vinteInCasa.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<PartitaDiCalcio> pareggiate = eventiDao.getPartitePareggiate();
         System.out.println("Partite finite in pareggio: " + pareggiate.size());
+        pareggiate.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<GaraDiAtletica> vinteDaAntonio = eventiDao.getGareVinteDaAtleta(antonioFromDb);
         System.out.println("Gare vinte da Antonio: " + vinteDaAntonio.size());
+        vinteDaAntonio.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<GaraDiAtletica> partecipateDaPippo = eventiDao.getGareACuiPartecipaAlteta(pippoFromDb);
         System.out.println("Gare a cui prende parte Pippo: " + partecipateDaPippo.size());
+        partecipateDaPippo.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<Evento> tuttiISoldOut = eventiDao.getEventiSoldOut();
         System.out.println("Eventi che hanno esaurito i biglietti: " + tuttiISoldOut.size());
+        tuttiISoldOut.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         List<Partecipazione> bigliettiDelMiniLive = partecipazioneDao.getPartecipazioniPerEvento(miniLiveFromDb);
         System.out.println("Biglietti trovati per il mini live: " + bigliettiDelMiniLive.size());
+        bigliettiDelMiniLive.forEach(System.out::println);
+        System.out.println("-------------------------");
 
         System.out.println("--- Fine dei test ---");
-
 
         //Esercizio day3
 //        try {
@@ -122,8 +137,7 @@ public class Application {
 //            entityManagerFactory.close();
 //            entityManager.close();
 //        }
-
-
+        
         //Esercizio day2
 //        Evento matrimonioAle = new Evento("Matrimonio Alessia", LocalDate.now(), "Matrimonio Imperdibile di Alessia", TipoEvento.PRIVATO, 150);
 //        Evento concertoGreenDay = new Evento("Concerto Greenday", LocalDate.of(2026, 7, 25), "GreenDay a Bari", TipoEvento.PUBBLICO, 200);

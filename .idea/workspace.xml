@@ -62,14 +62,6 @@
       <change afterPath="$PROJECT_DIR$/../u4-w2-d5/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../u4-w2-d5/src/main/java/antonioschettini/Application.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../u4-w2-d5/src/test/java/antonioschettini/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/EventiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/EventiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/PartecipazioneDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/PartecipazioneDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/dao/PersonaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/entities/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/antonioschettini/entities/Partecipazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/antonioschettini/entities/Partecipazione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +200,7 @@
       <workItem from="1781598285027" duration="11706000" />
       <workItem from="1781698195143" duration="8669000" />
       <workItem from="1781710367569" duration="1854000" />
-      <workItem from="1781783293692" duration="9433000" />
+      <workItem from="1781783293692" duration="10010000" />
     </task>
     <servers />
   </component>
